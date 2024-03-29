@@ -42,6 +42,7 @@ main() {
                       fontSize: 29,
                       fontWeight: FontWeight.bold),
                 ),
+                //style
                 TextSpan(
                   text: ' styles',
                   style: TextStyle(
