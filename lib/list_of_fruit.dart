@@ -17,6 +17,7 @@ void main() {
           child: Text.rich(
             TextSpan(
               children: [
+                //apple
                 TextSpan(
                   text: '🍎 Apple',
                   style: TextStyle(
@@ -24,6 +25,7 @@ void main() {
                       fontSize: 45,
                       fontWeight: FontWeight.bold),
                 ),
+                //graps
                 TextSpan(
                   text: '\n🍇 Graps',
                   style: TextStyle(
@@ -31,6 +33,7 @@ void main() {
                       fontSize: 45,
                       fontWeight: FontWeight.bold),
                 ),
+                //cherry
                 TextSpan(
                   text: '\n🍒 Cherry',
                   style: TextStyle(
@@ -38,6 +41,7 @@ void main() {
                       fontSize: 45,
                       fontWeight: FontWeight.bold),
                 ),
+                //strawberry
                 TextSpan(
                   text: '\n🍓 Strawberry',
                   style: TextStyle(
@@ -45,6 +49,7 @@ void main() {
                       fontSize: 45,
                       fontWeight: FontWeight.bold),
                 ),
+                //mango
                 TextSpan(
                   text: '\n🥭 Mango',
                   style: TextStyle(
@@ -52,6 +57,7 @@ void main() {
                       fontSize: 45,
                       fontWeight: FontWeight.bold),
                 ),
+                //pineapple
                 TextSpan(
                   text: '\n🍍 Pineapple',
                   style: TextStyle(
@@ -59,6 +65,7 @@ void main() {
                       fontSize: 45,
                       fontWeight: FontWeight.bold),
                 ),
+                //lemon
                 TextSpan(
                   text: '\n🍋 Lemon',
                   style: TextStyle(
@@ -66,6 +73,7 @@ void main() {
                       fontSize: 45,
                       fontWeight: FontWeight.bold),
                 ),
+                //watermelon
                 TextSpan(
                   text: '\n🍉 Watermelon',
                   style: TextStyle(
