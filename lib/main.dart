@@ -1,61 +1,115 @@
 import 'package:flutter/material.dart';
 
-main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: true,
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          leading: Icon(
-            Icons.menu,
-            color: Colors.white,
-          ),
           backgroundColor: Colors.blue,
-          centerTitle: true,
-          title: Text(
-            'Rich Text Example',
-            style: TextStyle(color: Colors.white),
+          title: const Text(
+            'Flutter RichText',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 24,
+            ),
           ),
         ),
-        body: const Center(
+        body: Center(
           child: Text.rich(
             TextSpan(
               children: [
-                TextSpan(
-                  text: 'Single ',
+                const TextSpan(
+                  text: 'RichText Helps to Create',
                   style: TextStyle(
-                      color: Colors.blue,
-                      fontSize: 29,
-                      fontWeight: FontWeight.bold),
+                    color: Color(0xff818181),
+                    fontSize: 27,
+                    fontWeight: FontWeight.w400,
+                  ),
                 ),
-                TextSpan(
-                  text: ' Line ',
+                const TextSpan(
+                  text: '\nHighlighted',
                   style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 29,
-                      fontWeight: FontWeight.bold,backgroundColor: Colors.teal),
+                    color: Colors.red,
+                    fontSize: 60,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+                  ),
                 ),
-                //multiple
-                TextSpan(
-                  text: ' Multiple',
+                const TextSpan(
+                  text: ',',
                   style: TextStyle(
-                      color: Colors.orangeAccent,
-                      fontSize: 29,
-                      fontWeight: FontWeight.bold),
+                    color: Colors.grey,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-                //style
-                TextSpan(
-                  text: ' styles',
+                const TextSpan(
+                  text: '\nClickable',
                   style: TextStyle(
-                      color: Colors.pink,
-                      fontSize: 29,
-                      fontWeight: FontWeight.bold,fontStyle: FontStyle.italic),
+                    color: Colors.blue,
+                    fontSize: 28,
+                    fontWeight: FontWeight.w400,
+                    decoration: TextDecoration.underline,
+                    decorationColor: Colors.blue,
+                  ),
+                ),
+                const TextSpan(
+                  text: ',',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const TextSpan(
+                  text: '   ',
+                ),
+                WidgetSpan(
+                  child: Container(
+                    height: 32,
+                    width: 160,
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.green, width: 2.4),
+                    ),
+                    child: const Center(
+                      child: Text(
+                        'Outlined Text',
+                        style: TextStyle(
+                          fontSize: 23,
+                          color: Colors.green,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                const TextSpan(
+                  text: '.',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const TextSpan(
+                  text: '\n    Say Hi To Rich Text',
+                  style: TextStyle(
+                    color: Color(0xff818181),
+                    fontSize: 28,
+                    fontWeight: FontWeight.w400,
+                  ),
                 ),
               ],
             ),
           ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
