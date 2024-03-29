@@ -35,6 +35,7 @@ main() {
                       fontSize: 29,
                       fontWeight: FontWeight.bold,backgroundColor: Colors.teal),
                 ),
+                //multiple
                 TextSpan(
                   text: ' Multiple',
                   style: TextStyle(
