@@ -14,6 +14,7 @@ void main()
 
        ),
        body: Center(
+
          child: Text(
            '      Red & White Group of Institudes \nOne Step In Changing Education chain...',style: TextStyle(color: Colors.red,fontSize: 19
              ,fontWeight: FontWeight.bold),
