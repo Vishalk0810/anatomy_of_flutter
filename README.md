@@ -28,6 +28,7 @@ samples, guidance on mobile development, and a full API reference.
 
   <br>
 
-  <img src = "https://github.com/Vishalk0810/anatomy_of_flutter/assets/149374506/a8047e8a-75e9-4034-85cf-663ef5897a17" width = 22%  height = 35%>
+  <img src = "https://github.com/Vishalk0810/anatomy_of_flutter/assets/149374506/a0051cf0-5a16-4abe-9f86-4e86eb61575d
+" width = 22%  height = 35%>
 
 
