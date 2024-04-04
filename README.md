@@ -18,20 +18,20 @@ samples, guidance on mobile development, and a full API reference.
 
 <p align ="center">
   <img src = "https://github.com/Vishalk0810/anatomy_of_flutter/assets/149374506/f6572175-7de9-45e8-9ade-ae97641e66ba" width = 22%  height = 35%>
-</p>
+  
+<br>
 
-<p align ="center">
+ align ="center"
   <img src = "https://github.com/Vishalk0810/anatomy_of_flutter/assets/149374506/ca471e41-7b72-4d12-8277-ef2ffc2814dd" width = 22%  height = 35%>
-</p>
+  
+<br>
 
-<p align ="center">
+align ="center"
+  <img src = "https://github.com/Vishalk0810/anatomy_of_flutter/assets/149374506/a8047e8a-75e9-4034-85cf-663ef5897a17" width = 22%  height = 35%>
+
+  <br>
+
+align ="center"
   <img src = "https://github.com/Vishalk0810/anatomy_of_flutter/assets/149374506/a8047e8a-75e9-4034-85cf-663ef5897a17" width = 22%  height = 35%>
 </p>
-
-<p align ="center">
-  <img src = "https://github.com/Vishalk0810/anatomy_of_flutter/assets/149374506/c65756d7-5cc1-4a0a-943f-dd379fa3495a
-" width = 22%  height = 35%>
-</p>
-
-
 
