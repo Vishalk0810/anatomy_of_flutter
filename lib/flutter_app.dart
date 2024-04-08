@@ -84,8 +84,8 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         title: Text(
           'Flutter App',style: TextStyle(
-          color: Colors.black,
-          fontWeight: FontWeight.w600
+            color: Colors.black,
+            fontWeight: FontWeight.w600
         ),
         ),
       ),
