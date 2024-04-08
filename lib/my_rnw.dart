@@ -13,8 +13,8 @@ void main()
           centerTitle: true,
           title: Text(
             'My RNW',style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.w600
+              color: Colors.white,
+              fontWeight: FontWeight.w600
           ),
           ),
         ),
@@ -24,10 +24,10 @@ void main()
               children: [
                 TextSpan(
                   text: 'Red & White',style: TextStyle(
-                  color: Colors.red,
-                  fontSize: 65,
-                  fontWeight: FontWeight.w700,
-                  decoration: TextDecoration.underline,decorationColor: Colors.red,height: 2
+                    color: Colors.red,
+                    fontSize: 65,
+                    fontWeight: FontWeight.w700,
+                    decoration: TextDecoration.underline,decorationColor: Colors.red,height: 2
                 ),
                 ),
                 TextSpan(
@@ -50,7 +50,7 @@ void main()
             ),
           ),
         ),
-        ),
       ),
+    ),
   );
 }
